@@ -1,5 +1,5 @@
 {
-  "name": "socket.io",
+  "name": "@qempo/socket.io",
   "version": "2.2.0",
   "description": "node.js realtime framework server",
   "keywords": [
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "debug": "~4.1.0",
-    "engine.io": "~3.3.1",
+    "@qempo/engine.io": "~3.3.3",
     "has-binary2": "~1.0.2",
     "socket.io-adapter": "~1.1.0",
     "socket.io-client": "2.2.0",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "expect.js": "0.3.1",
-    "mocha": "^3.5.3",
+    "mocha": "^5.2.0",
     "nyc": "^11.2.1",
     "superagent": "^3.8.2",
     "supertest": "^3.0.0"
